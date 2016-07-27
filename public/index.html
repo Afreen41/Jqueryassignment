@@ -1,0 +1,165 @@
+<html>
+<head>
+   
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+   
+   <script src="bootstrap/js/bootstrap.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/json.css">
+</head>
+
+
+<body class="w3-container" background="img/background.jpg">
+   <nav class="navbar navbar-default">
+       <div class="container">
+           <!-- Brand and toggle get grouped for better mobile display -->
+          
+   
+<ul class="nav navbar-nav pull-right">
+ 		<li>
+ 			<a href="#" class="dropdown-toggle fsize" data-toggle="dropdown">
+ 				<span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+ 				<ul class="dropdown-menu">
+ 					<li>
+ 						<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+ 						<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+ 						<li class="divider"></li>
+ 						<li>
+ 						<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+ 					</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+			
+			
+			</div>
+			</nav>
+
+   <div class="container" id="row2">
+       <h2><center>Rapid search data</center></h2>
+       
+       <a href="#myModal" role="button" class="btn btn-warning" id="add" data-toggle="modal">Insert new entry <span class="glyphicon glyphicon-upload" class="pull-right"></span></a>
+       <div class="modal fade" id="myModal">
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <button class="close" data-dismiss="modal">&times;</button>
+                       <h4 class="modal-title">Register Your Details</h4>
+                   </div>
+                   <!--end modal-header-->
+
+ <div class="modal-body">
+                       <form class="form-horizontal">
+                           <div class="form-group">
+                               <label for="inputName" class="col-lg-2 control-label">Name</label>
+                               <div class="col-lg-10">
+                                   <input class="form-control" id="name1" placeholder="name" type="name">
+                               </div>
+                           </div>
+                           <div class="form-group">
+                               <label for="gender" class="col-lg-2 control-label">gender</label>
+                               <div class="col-lg-10">
+                                   <input class="form-control" id="gender1" placeholder="gender" rows="3">
+                               </div>
+                           </div>
+                           <div class="form-group">
+                               <label for="gender" class="col-lg-2 control-label">company</label>
+                               <div class="col-lg-10">
+                                   <input class="form-control" id="company1" placeholder="company" rows="3">
+                               </div>
+                           </div>
+                           <div class="form-group">
+                               <label for="gender" class="col-lg-2 control-label">email</label>
+                               <div class="col-lg-10">
+                                   <input class="form-control" id="email1" placeholder="email" rows="3">
+                               </div>
+                           </div>
+                           <div class="form-group">
+                               <label for="gender" class="col-lg-2 control-label">phone</label>
+                               <div class="col-lg-10">
+                                   <input class="form-control" id="phone1" placeholder="phone" rows="3">
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+                   <div class="modal-footer">
+                       <button class="btn btn-success pull-right" id="savebtn" type="submit">Save</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+</div> 
+<div class="modal fade" id="myModal1">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Register Your Details</h4>
+               </div>
+               <!--end modal-header-->
+               <div class="modal-body">
+                   <form class="form-horizontal">
+                       <div class="form-group" hidden="true">
+                           <label for="id" class="col-lg-2 control-label">ID</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="id2" rows="3" hidden="true">
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label for="inputName" class="col-lg-2 control-label">Name</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="name2"  type="text">
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label for="gender" class="col-lg-2 control-label">Gender</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="gender2" placeholder="gender" rows="3">
+                           </div>
+                       </div>
+                     <div class="form-group">
+                           <label for="gender" class="col-lg-2 control-label">Company</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="company2" placeholder="enter your company.." rows="3">
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label for="gender" class="col-lg-2 control-label">Email</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="email2" type="email" placeholder="enter your email here.." rows="3">
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label for="gender" class="col-lg-2 control-label">Phone</label>
+                           <div class="col-lg-10">
+                               <input class="form-control" id="phone2" placeholder="Enter your Mobile Number" rows="3">
+                           </div>
+                       </div>
+                   </form>
+               </div>
+               <div class="modal-footer">
+                   <button class="btn btn-success pull-right" id="savebtn1" type="submit" data-dismiss="modal">Save</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+<div class="container">
+<div class="tableDetail">
+       <table id="ta1">
+           <tr>
+               <th>Id</th>
+               <th>Name</th>
+               <th>Gender</th>
+               <th>Company</th>
+               <th>Email</th>
+               <th>Phone</th>
+               <th>Function</th>
+           </tr>
+       </table>
+   </div>
+</body>
+
+</html>

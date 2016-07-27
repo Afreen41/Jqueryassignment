@@ -1,0 +1,50 @@
+button.btn.btn-default {
+   margin-bottom: 10px;
+   margin-left: 10px;
+}
+
+.container h2 {
+   color: red;
+}
+
+
+
+.tableDetail {
+   background-color: #ffffff ;
+}
+
+.col-lg-2 {
+  font-size: 15px;
+}
+.fsize{
+  font-size: 18px;
+}
+
+
+table {
+  /*font-family: arial, sans-serif;*/
+   /*border-collapse: collapse;*/
+   width: 100%;
+}
+
+td,
+th {
+   border: 1px solid #dddddd ;
+   text-align: center;
+   padding: 8px;
+   font-size: 18px;
+}
+
+tr:nth-child(even) {
+   background-color: #dddddd ;
+}
+
+table tr > th {
+   text-align: center;
+   font-size: 18px;
+}
+
+
+/*media queries for the images*/
+
+
